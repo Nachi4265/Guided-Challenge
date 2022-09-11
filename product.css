@@ -1,8 +1,147 @@
+/* grid styling*/
+
 .parent { 
-    display: grid; 
+    display: grid;
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(4, 1fr); 
     grid-column-gap: 20px;
     grid-row-gap: 20px; 
-    background-color: bisque;
+    padding: 20px;
     }
+/* grid styling*/
+
+
+
+
+/* header style*/
+h1{ padding: 10px;
+    background-color: tan;
+    border: 3px;
+    border-style: double;
+    border-color: black;
+}
+/* header style*/
+
+
+
+
+
+/*button styling*/
+button{
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 8px;
+    box-shadow: 0 9px #694310;
+    margin: 10px;
+}
+.button:active {
+    background-color: #8A6637;
+    box-shadow: 0 5px #482904;
+    transform: translateY(4px);
+  }
+  /* button styling */
+
+
+
+
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+
+
+
+
+
+    /*products*/
+
+.p1{
+    background-color: tan;
+    border: 3px;
+    border-style: double;
+    border-color: black;
+    padding: 5px;
+    text-align: left;
+    
+}
+.p2{
+    background-color: tan;
+    border: 3px;
+    border-style: double;
+    border-color: black;
+    padding: 5px;
+    text-align: left;
+}
+
+.p3{
+    background-color: tan;
+    border: 3px;
+    border-style: double;
+    border-color: black;
+    padding: 5px;
+    text-align: left;
+}
+
+.p4{
+    background-color: tan;
+    border: 3px;
+    border-style: double;
+    border-color: black;
+    padding: 5px;
+    text-align: left;
+}
+
+.p5{
+    background-color: tan;
+    border: 3px;
+    border-style: double;
+    border-color: black;
+    padding: 5px;
+    text-align: left;
+}
+
+.p6{
+    background-color: tan;
+    border: 3px;
+    border-style: double;
+    border-color: black;
+    padding: 5px;
+    text-align: left;
+}
+
+.p7{
+    background-color: tan;
+    border: 3px;
+    border-style: double;
+    border-color: black;
+    padding: 5px;
+    text-align: left;
+}
+
+.p8{
+    background-color: tan;
+    border: 3px;
+    border-style: double;
+    border-color: black;
+    padding: 5px;
+    text-align: left;
+}
+/*products*/
+
+
+@media (min-width: 600px){
+    p{font: size 1.25em;
+    color: brown;}
+    
+}
