@@ -1,0 +1,135 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    background-color: white;
+}
+
+
+
+.parent{ 
+    display: grid; 
+    grid-template-columns: repeat(8, 1fr); 
+    grid-template-rows: repeat(8, 1fr); 
+    grid-column-gap: 10pxpx;
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    border: 10px solid black;
+    }
+
+.parent div:nth-child(1){
+    background-color: white;
+}
+
+.parent div:nth-child(2){
+    background-color: black;
+}
+
+
+.parent div:nth-child(4){
+    background-color: black;
+}
+
+.parent div:nth-child(6){
+    background-color: black;
+}
+
+.parent div:nth-child(8){
+    background-color: black;
+}
+
+.parent div:nth-child(9){
+    background-color: black;
+}
+
+.parent div:nth-child(11){
+    background-color: black;
+}
+
+.parent div:nth-child(13){
+    background-color: black;
+}
+.parent div:nth-child(15){
+    background-color: black;
+}
+
+.parent div:nth-child(18){
+    background-color: black;
+}
+
+.parent div:nth-child(20){
+    background-color: black;
+}
+
+.parent div:nth-child(22){
+    background-color: black;
+}
+
+.parent div:nth-child(24){
+    background-color: black;
+}
+
+.parent div:nth-child(25){
+    background-color: black;
+}
+
+.parent div:nth-child(27){
+    background-color: black;
+}
+.parent div:nth-child(29){
+    background-color: black;
+}
+
+.parent div:nth-child(31){
+    background-color: black;
+}
+
+.parent div:nth-child(34){
+    background-color: black;
+}
+.parent div:nth-child(36){
+    background-color: black;
+}
+.parent div:nth-child(38){
+    background-color: black;
+}
+.parent div:nth-child(40){
+    background-color: black;
+}
+.parent div:nth-child(41){
+    background-color: black;
+}
+.parent div:nth-child(43){
+    background-color: black;
+}
+.parent div:nth-child(45){
+    background-color: black;
+}
+.parent div:nth-child(47){
+    background-color: black;
+}
+.parent div:nth-child(50){
+    background-color: black;
+}
+.parent div:nth-child(52){
+    background-color: black;
+}
+.parent div:nth-child(54){
+    background-color: black;
+}
+.parent div:nth-child(56){
+    background-color: black;
+}
+.parent div:nth-child(57){
+    background-color: black;
+}
+.parent div:nth-child(59){
+    background-color: black;
+}
+.parent div:nth-child(61){
+    background-color: black;
+}
+.parent div:nth-child(63){
+    background-color: black;
+}
